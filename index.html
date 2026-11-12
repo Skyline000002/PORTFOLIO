@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="Portfolio de TCHANA EMMANUELLE, en deuxième année d’informatique au CESI : développement web, intelligence artificielle et projets embarqués.">
+  <title>Portfolio · TCHANA EMMANUELLE | Développement & IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Revenir à l'accueil"><span class="brand-sign">&lt;/&gt;</span> TCHANA EMMANUELLE<span class="brand-dot">.</span></a>
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#apropos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#parcours">Parcours</a>
+        <a class="nav-cta" href="#contact">Me contacter <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="accueil" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> EN 2E ANNÉE D’INFORMATIQUE · CESI</div>
+        <p class="hero-name">TCHANA EMMANUELLE</p>
+        <h1 id="hero-title">J'apprends à coder.<br>Je construis des <em>projets utiles.</em></h1>
+        <p class="lead">Je suis en 2e année d’informatique au CESI. Je développe des projets autour du web, de l'intelligence artificielle et des systèmes embarqués, avec l'envie de progresser à chaque version.</p>
+        <div class="hero-actions"><a class="button primary" href="#projets">Découvrir mes projets <span aria-hidden="true">↗</span></a><a class="button outline" href="https://github.com/Skyline000002" target="_blank" rel="noopener noreferrer">Mon GitHub <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-facts"><span><strong>02</strong> année d'études au CESI</span><span><strong>AI</strong> projets d'apprentissage</span><span><strong>01</strong> bootcamp terminé</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Présentation visuelle du projet StudyMind AI">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="art-panel">
+          <div class="art-top"><span class="tiny-dots"><i></i><i></i><i></i></span><span>projet en cours</span></div>
+          <div class="art-heading"><span class="art-symbol">✦</span><div><small>APPLICATION IA</small><h2>StudyMind AI</h2></div></div>
+          <p>Un espace pour apprendre plus efficacement à partir de ses cours.</p>
+          <div class="art-items"><div><span class="art-item-icon">01</span><span>Comprendre un document PDF</span><span class="tick">✓</span></div><div><span class="art-item-icon">02</span><span>Poser des questions à l'IA</span><span class="tick">✓</span></div><div><span class="art-item-icon">03</span><span>Réviser avec des exercices</span><span class="art-wip">en test</span></div></div>
+          <div class="art-foot"><span class="tech-pill">React</span><span class="tech-pill">Python</span><span class="tech-pill">Ollama</span></div>
+        </div>
+        <div class="floating-tag">Construire · Tester · Améliorer</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="apropos" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="reveal"><span class="section-kicker">01 / À PROPOS</span><h2 id="about-title" class="section-title">Curieux du code, <span>orienté projets.</span></h2></div>
+        <div class="about-body reveal"><p>Je construis mes compétences en informatique au CESI en alternant cours et projets personnels. J'aime transformer une idée en une application concrète, apprendre de mes erreurs et améliorer progressivement mon code.</p><p>Mes centres d'intérêt actuels : <strong>le développement web</strong>, <strong>l'IA appliquée à l'éducation</strong>, et <strong>la cybersécurité</strong>. Mon portfolio présente ce que j'ai réalisé, ce que je teste et ce que je prévois de développer.</p></div>
+      </div>
+    </section>
+
+    <section class="section projects-section container" id="projets" aria-labelledby="projects-title">
+      <div class="section-header reveal"><div><span class="section-kicker">02 / MES RÉALISATIONS</span><h2 class="section-title" id="projects-title">Des projets <span>concrets.</span></h2></div><p>Des idées mises en pratique, avec une attention particulière à l'apprentissage et à l'utilité.</p></div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-cover cover-study"><span class="cover-label">01 / PROJET PHARE</span><div class="study-demo"><span class="demo-logo">✦ StudyMind</span><span class="demo-line"></span><span class="demo-line short"></span><div class="demo-tiles"><span>Mes cours</span><span>Ask AI</span><span>Révisions</span></div></div></div>
+          <div class="project-info"><div class="project-meta"><span class="status active">● En développement</span><span>Application éducative</span></div><h3>StudyMind AI</h3><p>Application de révision avec bibliothèque PDF, assistant pédagogique local, fiches, flashcards et examens blancs. Le travail actuel porte notamment sur la fiabilité des réponses.</p><div class="stack"><span>React</span><span>Vite</span><span>Python</span><span>Ollama</span><span>SymPy</span></div><a class="text-link" href="https://github.com/Skyline000002/STUDYMIND-AI" target="_blank" rel="noopener noreferrer">Voir StudyMind AI sur GitHub <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-cover cover-stm"><span class="cover-label">02 / PROJET ACADÉMIQUE</span><div class="circuit"><div class="circuit-core">STM32<span>Nucleo</span></div><span class="circuit-wire w1"></span><span class="circuit-wire w2"></span><span class="circuit-wire w3"></span><span class="circuit-wire w4"></span></div></div>
+          <div class="project-info"><div class="project-meta"><span class="status academic">● Projet académique</span><span>Systèmes embarqués</span></div><h3>Station météo sur STM32</h3><p>Travail académique autour d'une carte STM32 Nucleo et de la programmation embarquée, pour explorer l'acquisition de données environnementales.</p><div class="stack"><span>C</span><span>STM32 Nucleo</span><span>Embarqué</span></div></div>
+        </article>
+        <article class="project-card dark-card reveal"><div class="dark-card-bg"></div><div class="project-info"><div class="project-meta"><span class="status planned">À venir</span><span>Cybersécurité</span></div><span class="shield-icon" aria-hidden="true">⬡</span><h3>CyberSentinel AI</h3><p>Projet prévu : un outil Python d'analyse de journaux de sécurité pour repérer des anomalies et faciliter leur exploration.</p><div class="stack"><span>Python</span><span>Analyse de logs</span><span>Sécurité</span></div><p class="planned-note">Projet annoncé, non présenté comme réalisé.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="competences" aria-labelledby="skills-title"><div class="container"><div class="section-header reveal"><div><span class="section-kicker">03 / COMPÉTENCES</span><h2 class="section-title" id="skills-title">Ma boîte à <span>outils.</span></h2></div><p>Des technologies utilisées en projet et des compétences que je continue de développer.</p></div><div class="skill-grid"><div class="skill-box reveal"><div class="skill-number">01</div><h3>Développement</h3><p>HTML · CSS · JavaScript · React</p><small>Pratique par projet</small></div><div class="skill-box reveal"><div class="skill-number">02</div><h3>Programmation</h3><p>C · Python</p><small>Apprentissage en cours</small></div><div class="skill-box reveal"><div class="skill-number">03</div><h3>IA & outils</h3><p>Ollama · SymPy · VS Code</p><small>Expérimentation et intégration</small></div><div class="skill-box reveal"><div class="skill-number">04</div><h3>Versioning</h3><p>Git · GitHub</p><small>Portfolio et bonnes pratiques</small></div></div></div></section>
+
+    <section class="section journey-section container" id="parcours" aria-labelledby="journey-title"><div class="section-header reveal"><div><span class="section-kicker">04 / PARCOURS</span><h2 class="section-title" id="journey-title">Toujours en <span>progression.</span></h2></div></div><div class="timeline"><div class="timeline-item reveal"><span class="timeline-marker"></span><div class="timeline-date">Formation actuelle</div><div><h3>CESI · Études en informatique</h3><p>Étudiant en deuxième année, projets techniques et apprentissage du développement.</p></div></div><div class="timeline-item reveal"><span class="timeline-marker"></span><div class="timeline-date">Bootcamp terminé</div><div><h3>STEM4All · Intelligence artificielle</h3><p>Initiation pratique aux outils IA et à leurs applications créatives et numériques.</p></div></div><div class="timeline-item reveal"><span class="timeline-marker"></span><div class="timeline-date">Prochaine étape</div><div><h3>Approfondir la cybersécurité</h3><p>Projet CyberSentinel AI et consolidation des bases en Python, réseaux et analyse de données.</p></div></div></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-content reveal"><span class="section-kicker">05 / CONTACT</span><h2 id="contact-title">Un projet à partager ?<br><em>Discutons-en.</em></h2><p>Je suis disponible pour échanger autour du développement, de l’IA, de la cybersécurité et des opportunités de stage.</p><a class="button light" href="https://github.com/Skyline000002" target="_blank" rel="noopener noreferrer">Retrouvez-moi sur GitHub <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <footer class="footer container"><span>© <span id="year">2026</span> TCHANA EMMANUELLE · Portfolio personnel</span><span>Construit avec HTML, CSS et JavaScript</span><a href="#accueil">Retour en haut ↑</a></footer>
+</body>
+</html>
